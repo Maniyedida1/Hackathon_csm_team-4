@@ -1,0 +1,74 @@
+<span style="font-family: verdana, geneva, sans-serif;">/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: linear-gradient(#CBC3E3 0%, #AA98A9 100%); */
+    background-image: url("hackathon images/bg3.webp")
+}
+.wrapper{
+    
+    /* background: #BF40BF; */ 
+    background-image: url("hackathon images/bg2.png") , url("hackathon images/bg4.png") ;
+    
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4); 
+
+    
+}
+h2{
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex; 
+    
+    font-family: cursive
+
+}
+
+.members2{
+    display: flex;
+
+    font-family: cursive
+
+
+}
+
+.team-mem{
+    margin: 8px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.que{
+    font-size: 8px;
+}
+.ques{
+    font-weight: 200;
+}
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+} 
+</span>
